@@ -1,7 +1,7 @@
 {
   "name": "demo-kit-lib",
   "description": "A simple vuejs Hello World plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "author": {
     "name": "Karlis Millers",
@@ -9,16 +9,22 @@
   },
   "repository": "https://github.com/mrmoonlv/demo-kit-lib",
   "bugs": "https://github.com/mrmoonlv/demo-kit-lib/issues",
-  "keywords": ["kit", "demo", "test"],
+  "keywords": [
+    "kit",
+    "demo",
+    "test"
+  ],
   "license": "MIT",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "build-library" : "vue-cli-service build --target lib --name demo-kit-lib ./src/install.js"
+    "build-library": "vue-cli-service build --target lib --name demo-kit-lib ./src/install.js"
   },
-  "main" : "./dist/demo-kit-lib.common.js",
+  "main": "./dist/demo-kit-lib.common.js",
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
